@@ -32,5 +32,6 @@ CUSTOMER_MODEL_MAP = '''{
     "DS-8-CF":"@cf/lykon/dreamshaper-8-lcm",
     "SD-XL-Bash-CF":"@cf/stabilityai/stable-diffusion-xl-base-1.0",
     "SD-XL-Lightning-CF":"@cf/bytedance/stable-diffusion-xl-lightning"
+    "Gemini-2.5-Flash-Image": "google/gemini-2.5-flash-image"
 }'''
 getme = "测试专用"
