@@ -20,7 +20,7 @@ CF_ACCOUNT_LIST = '''[{
     "token":"2FT5WsUV7ughlrNvJ3hgA_HZFnvf9ilumfJ-q4B0"
 }]'''
 API_KEY = "your_api_key_here"
-CF_TRANSLATE_MODEL = "@cf/qwen/qwen1.5-14b-chat-awq"
+CF_TRANSLATE_MODEL = "@cf/openai/gpt-oss-120b"
 CF_IS_TRANSLATE = "true"
 USE_EXTERNAL_API = "false"
 EXTERNAL_API = ""
