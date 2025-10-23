@@ -97,12 +97,12 @@ const GenerateImage: FC = () => {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 px-4">
       <div className="relative bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-3xl shadow-2xl p-10 max-w-md w-full">
         <h1 className="text-4xl font-extrabold text-white mb-8 text-center drop-shadow-lg">
-          白嫖 CF 的 Flux 生成图片
+          圖文慧識學習障礙輔助系統_ai生成
         </h1>
         <Form method="post" className="space-y-8" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="prompt" className="block text-white text-lg font-semibold mb-3">
-              输入提示词：
+              輸入提示詞：
             </label>
             <input
               type="text"
@@ -111,13 +111,13 @@ const GenerateImage: FC = () => {
               value={prompt}
               onChange={handlePromptChange}
               className="w-full px-5 py-3 rounded-xl border border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-400 bg-white bg-opacity-20 text-white placeholder-white placeholder-opacity-70 transition duration-300 ease-in-out hover:bg-opacity-30"
-              placeholder="请输入您的提示词..."
+              placeholder="請輸入您的提示詞..."
               required
             />
           </div>
           <div>
             <label htmlFor="model" className="block text-white text-lg font-semibold mb-3">
-              选择模型：
+              選擇模型：
             </label>
             <select
               id="model"
@@ -135,7 +135,7 @@ const GenerateImage: FC = () => {
           </div>
           <div>
             <label htmlFor="size" className="block text-white text-lg font-semibold mb-3">
-              图片尺寸：
+              圖片尺寸：
             </label>
             <select
               id="size"
@@ -151,7 +151,7 @@ const GenerateImage: FC = () => {
           </div>
           <div>
             <label htmlFor="numSteps" className="block text-white text-lg font-semibold mb-3">
-              生成步数：
+              產生步數：
             </label>
             <input
               type="number"
@@ -172,7 +172,7 @@ const GenerateImage: FC = () => {
                           ${enhance ? "bg-gradient-to-r from-green-400 to-green-600" : "bg-gradient-to-r from-gray-400 to-gray-600"}`}
               disabled={isSubmitting}
             >
-              {enhance ? "已强化提示词" : "是否强化提示词"}
+              {enhance ? "已強化提示詞" : "是否強化提示詞"}
             </button>
             <input type="hidden" name="enhance" value={enhance.toString()} />
             <button
