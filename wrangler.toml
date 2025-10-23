@@ -19,20 +19,20 @@ CF_ACCOUNT_LIST = '''[{
     "account_id":"5910f74d353b7e8ac086f36f1ec33346",
     "token":"MhKW_eOPMuqQTyhtWQzIGsI4k2FxYw4xN5nWdSkA"
 }]'''
-API_KEY = "your_api_key_here"
+API_KEY = "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"
 CF_TRANSLATE_MODEL = "@cf/qwen/qwen1.5-14b-chat-awq"
 CF_IS_TRANSLATE = "true"
-USE_EXTERNAL_API = "false"
-EXTERNAL_API = ""
-EXTERNAL_MODEL = ""
-EXTERNAL_API_KEY = ""
+USE_EXTERNAL_API = "true"
+EXTERNAL_API = "https://openrouter.ai/api/v1/images/generations"
+EXTERNAL_MODEL = "google/gemini-2.5-flash-image"
+EXTERNAL_API_KEY = "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"
 FLUX_NUM_STEPS = "6"
 CUSTOMER_MODEL_MAP = '''{
     "FLUX.1-Schnell-CF":"@cf/black-forest-labs/flux-1-schnell",
     "DS-8-CF":"@cf/lykon/dreamshaper-8-lcm",
     "SD-XL-Bash-CF":"@cf/stabilityai/stable-diffusion-xl-base-1.0",
     "SD-XL-Lightning-CF":"@cf/bytedance/stable-diffusion-xl-lightning"
+    "Gemini-2.5-Flash": "google/gemini-2.5-flash-image"
 }'''
 getme = "测试专用"
-
 
